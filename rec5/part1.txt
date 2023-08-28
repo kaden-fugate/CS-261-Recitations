@@ -1,0 +1,12 @@
+
+
+1. I personally didnt really struggle with understanding any of the concepts so far.
+
+2.
+    a. Only thing that is messing with me right now is 
+    bst's because of the recursion
+
+    b. I'm not sure what questions I missed on the exam
+    but I feel like weird syntax questions are what mess me
+    up the most
+

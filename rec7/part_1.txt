@@ -1,0 +1,5 @@
+For the first set of insertions, the AVL tree rotated 6 times.
+
+For the second set of insertions, the AVL tree rotated 6 times as well.
+
+The first tree was more left heavy while the first tree was more right heavy.

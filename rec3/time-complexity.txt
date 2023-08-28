@@ -1,0 +1,11 @@
+1st:
+
+Linear search best is O(1), average is O(n), worst is O(n), space complexity is O(1)
+
+2nd:
+
+Bubble sort best is O(n), average is O(n^2), worst is O(n^2), space complexity is O(1)
+
+3rd:
+
+best is O(n), average is O(n), worst is O(n), space complexity is O(1)

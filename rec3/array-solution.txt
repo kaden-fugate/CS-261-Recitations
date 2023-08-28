@@ -1,0 +1,11 @@
+not sure if i fixed the sorting algo the right way but it works.
+
+first thing i changed was the 2nd for loop. it originally was starting at i
+and decreasing until 0 but i switched it to start at i and increment until n - 1.
+
+after this, i switched it to compare vals of array[i - 1] with array[j] instead of
+array[j - 1] with array[ j ]. i made this change because i wanted the num at i to be compared
+to all nums in array. 
+
+finally, i switched the break in the if statement to a continue. i did this
+because it should not stop comparing num first time this if statement is true.

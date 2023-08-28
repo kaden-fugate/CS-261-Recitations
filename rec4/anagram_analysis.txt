@@ -1,0 +1,3 @@
+The runtime complexity of check_anagram() is O(n). The reason why i think this
+is because it always has to check every letter of a string (n letters) then after this,
+it checks 1-26 additional items (26 if anagram is same) and it returns an output.

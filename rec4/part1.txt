@@ -1,0 +1,13 @@
+Linked list and array would act same on first part as they
+would both need to access every element with O(n) time
+
+Linked list would be better than array for 2nd part because while
+array can add to back with O(1) average, linked list
+can add to front with O(1) best
+
+Linked list would 100% be better for space management than
+dynarray would be. Because the amount of data collected
+isnt constant, youre going to waste memory with dynarray but with
+linked list, you will always use correct amount of memory
+
+overall, linked list is better than dynarray in this situation

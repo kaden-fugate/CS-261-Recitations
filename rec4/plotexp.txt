@@ -1,0 +1,29 @@
+1. The realloc method with cap *= 2 was the fastest method
+
+2. The resize function written by roger with cap += 1 was the slowest method
+
+3. With the cap *= 2 method, its a lot faster because you dont always have to 
+go through the trouble of expanding the memory. however, with the cap++ method,
+its a lot more effiecient memory wise than cap *= 2 except this doesnt really matter
+unless youre going to allocate a ton of memory. <-- its too slow to allocate this much memory anyways
+
+4. 
+    a. 
+        rogers function - cap *= 2:
+
+        complexity: O(n)
+
+    b. 
+        rogers function - cap += 1:
+
+        function complexity: O(n)
+
+    c. 
+        realloc function - cap *= 2:
+
+        function complexity: O(1)
+
+    d. 
+        realloc function - cap += 1:
+
+        function complexity: O(1)

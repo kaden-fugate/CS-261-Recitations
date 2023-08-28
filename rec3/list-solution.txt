@@ -1,0 +1,6 @@
+for the linked list, it was seg faulting when it was assigning a variable to cur->next
+this is because the loop was only checking if cur == NULL.
+
+basically, the program was assigning a node to NULL->next which doesnt work
+
+found in GDB using backtrace
